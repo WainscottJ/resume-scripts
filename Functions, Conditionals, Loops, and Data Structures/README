@@ -1,0 +1,17 @@
+Purpose
+The purpose of this assignment is to test your ability to write Python functions that incorporate conditionals, loops, Boolean expressions,
+and complex data structures such as lists, dictionaries, and tuples. The context of this assignment focuses on cybersecurity, 
+where you will audit user permissions and system vulnerabilities using Python.
+
+Skills
+In completing this assignment, you will practice and demonstrate your ability to:
+1. Write Python functions to encapsulate functionality.
+2. Use conditionals (if, elif, else) and Boolean expressions to control program flow.
+3. Implement loops (for, while) to automate repetitive tasks.
+4. Work with lists, dictionaries, and tuples to store, retrieve, and process data.
+5. Apply these skills to real-world cybersecurity auditing scenarios.
+                    
+Knowledge
+This assignment will deepen your knowledge of Python functions, data structures, and control flow. 
+You will learn how to write modular and efficient code using loops, conditionals, and functions,
+while handling complex data structures in the context of cybersecurity.
