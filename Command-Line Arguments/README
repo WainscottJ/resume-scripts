@@ -10,7 +10,7 @@ Skills:
 - Implementing more complex logic for error and threshold handling.
 
 Knowledge:
-By the end of this assignment, have learned:
+By the end of this assignment, I have learned:
 - How to handle command-line arguments using Python’s argparse module.
 - How to implement and use both positional and optional arguments.
 - How to organize your script into functions for reusability and modularity.
