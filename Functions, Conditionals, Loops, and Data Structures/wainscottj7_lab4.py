@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 # Name: Jacob Wainscott
 # CIT 383-002 Assignment 1 Python Functions
 # Date: 2/9/2025
