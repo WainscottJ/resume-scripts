@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #Name: Jacob Wainscott
 #CIT 383-002 Module 5 Assignment 1 Exception Handling
 #Date: 2/23/2025
