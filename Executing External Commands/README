@@ -1,0 +1,13 @@
+Purpose
+The purpose of this assignment is to demonstrate your ability to:
+1. Execute Linux commands within Python scripts.
+2. Write scripts to back up files and directories.
+3. Write scripts for archiving files and directories.
+
+By completing this assignment, you will gain practical experience automating system administration tasks like backups and archiving using Python.
+Skills and knowledge gained
+- Executing external Linux commands from Python scripts.
+- Writing Python functions to perform backups and archiving.
+- Handling files and directories programmatically, including error handling.
+- Working with compressed archive formats (zip, tar, gztar, etc.).
+- Retrieving file metadata such as size and last modification time.
