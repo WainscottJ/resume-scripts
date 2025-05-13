@@ -1,0 +1,17 @@
+Purpose
+This assignment will help you:
+• Deepen your understanding of Python error handling in real-world cybersecurity contexts.
+• Implement advanced validation mechanisms to secure password inputs.
+• Handle complex errors and integrate security-focused programming techniques like rate limiting and layered validation.
+
+Skills
+By completing this assignment, you will improve your ability to:
+• Use custom exceptions and advanced try, except, else, and finally blocks to handle a range of error scenarios.
+• Implement rate limiting and other security best practices in user authentication systems.
+• Debug complex error chains and build error-resilient, secure Python programs.
+
+Knowledge
+This assignment reinforced my understanding of:
+• Error handling techniques for cybersecurity-focused applications.
+• Complex password validation policies and common attack vectors.
+• How to write secure, robust Python code that can handle errors efficiently in high-security contexts.
