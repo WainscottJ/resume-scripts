@@ -1,0 +1,11 @@
+Purpose: Why am I doing this?
+This assignment teaches you how to automate user account management on a Linux system using Python. 
+By completing this task, you’ll gain practical skills for real-world IT system administration, 
+including how to create, delete, and modify user accounts using Python scripts and command-line arguments—without any GUI or menu systems.
+
+Skills and Knowledge You Will Gain
+-	Automate system administration tasks with Python
+-	Learn how to process command-line arguments using argparse
+-	Gain hands-on experience with Linux user management
+-	Improve your ability to handle errors and validate input
+-	Practice writing clean, well-commented, and maintainable Python code
