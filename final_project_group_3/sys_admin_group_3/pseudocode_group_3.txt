@@ -1,0 +1,102 @@
+# Pseudocode for sys_admin_group_3.py
+# Project Purpose: Perform system administration tasks using Python with subcommands
+
+1. Initialize logging:
+   - Log all error messages with timestamps to error_log_group_[group_number].log
+
+2. Set up argument parser with subcommands:
+   - Use argparse to define the base parser and three subcommands:
+       a. user
+       b. organize
+       c. monitor
+
+----------------------------------------------------
+USER SUBCOMMAND
+----------------------------------------------------
+3. Define 'user' subcommand with mutually exclusive flags:
+   - --create          => create one user (requires --username and --role)
+   - --create-batch    => create multiple users from a CSV file (requires --csv)
+   - --delete          => delete a user (requires --username)
+   - --update          => update user password/details (requires --username, optional --password)
+
+4. When user subcommand is triggered:
+   a. If --create:
+      - Validate username format (no spaces or special characters)
+      - Validate role (must be 'admin' or 'user')
+      - Create the user with home directory
+      - Encrypt password and assign role-based group (e.g., 'wheel' for admin)
+      - Output success message
+   b. If --create-batch:
+      - Read the provided CSV file
+      - For each user in CSV:
+         - Validate username, role, and password
+         - If valid, create user and assign role
+         - If invalid, log error and skip
+      - Output batch summary
+   c. If --delete:
+      - Delete the user using system commands
+      - Output success or failure
+   d. If --update:
+      - Validate username
+      - Update user password or details
+      - Output result
+
+----------------------------------------------------
+ORGANIZE SUBCOMMAND
+----------------------------------------------------
+5. Define 'organize' subcommand with:
+   - --dir => directory path to organize by file type
+   - --log-monitor => path to a log file to summarize critical messages
+
+6. When organize subcommand is triggered:
+   a. If --dir:
+      - For each file in the directory:
+         - Check file extension
+         - Create subdirectory for the type if it doesn’t exist
+         - Move file to corresponding subdirectory
+      - Output list of file movements and completion message
+   b. If --log-monitor:
+      - Open log file
+      - Count number of messages: ERROR, WARNING, CRITICAL
+      - Display summary of counts
+
+----------------------------------------------------
+MONITOR SUBCOMMAND
+----------------------------------------------------
+7. Define 'monitor' subcommand with:
+   - --system => monitor CPU and memory every 1 minute for 10 minutes
+   - --disk => check disk usage (requires --dir and --threshold)
+
+8. When monitor subcommand is triggered:
+   a. If --system:
+      - Loop 10 times:
+         - Get CPU and memory usage
+         - Log data to system_health_group_[group_number].log
+         - Print alert if CPU > 80%
+         - Sleep 60 seconds
+   b. If --disk:
+      - Get disk usage stats for specified directory
+      - Compare against threshold value
+      - Print alert if exceeded
+
+----------------------------------------------------
+ERROR HANDLING & SECURITY
+----------------------------------------------------
+9. Error Logging:
+   - Catch and log exceptions with logging module
+   - Output friendly error messages to terminal
+
+10. Input Validation:
+    - Sanitize username (no spaces or symbols)
+    - Only allow roles: 'admin' or 'user'
+    - Validate file paths before use
+
+----------------------------------------------------
+FINAL PROJECT FILES
+----------------------------------------------------
+11. Final files to include in ZIP submission:
+   - sys_admin_group_3.py
+   - pseudocode_group_3.txt
+   - README_group_3.md
+   - error_log_group_3.log (sample)
+   - system_health_group_3.log (sample)
