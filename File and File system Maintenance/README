@@ -1,0 +1,9 @@
+Purpose
+This assignment is designed to give you hands-on experience with basic file system operations in Python. 
+You will learn to create and manipulate files and directories using Python's os module while reinforcing key skills in file management and error handling.
+
+Skills and Knowledge You Will Gain
+- Practical experience using Python’s os module for file system operations.
+- Managing and manipulating file and directory structures programmatically.
+- Writing clean and well-commented Python scripts.
+- Performing input validation and handling errors related to file system operations.
