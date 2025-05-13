@@ -1,0 +1,18 @@
+Purpose
+The purpose of this assignment is to help you practice using control flow structures (if-else, loops)
+and Boolean expressions in Python to automate system monitoring tasks common in IT environments.
+Mastering these concepts will enable you to write efficient scripts for automation, monitoring, and network diagnostics.
+
+Skills
+In this assignment, you will develop the following skills:
+- Use of Python conditionals (if, elif, else) to handle complex decision-making scenarios.
+- Use of loops (for, while) to automate repetitive tasks.
+- Use of boolean and logical expressions (and, or, not) to handle multiple conditions efficiently.
+- Handling multiple data sets (such as servers) and applying control flow logic to them.
+- Writing clear and organized Python code for system automation.
+
+Knowledge
+This assignment will helped reinforce the following concepts:
+- How to structure control flow in Python scripts.
+- How to handle various logical conditions in real-world IT tasks.
+- How to use loops to iterate over data, such as server lists, logs, or network connections.
