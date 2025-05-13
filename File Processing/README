@@ -1,0 +1,14 @@
+Purpose
+The purpose of this assignment is to demonstrate your ability to:
+1. Read and process data from different types of files (CSV, text, spreadsheets).
+2. Write data to new files using appropriate formats.
+3. Implement and use user-defined Python functions to solve practical file processing problems.
+
+By completing this assignment, you will strengthen your skills in handling real-world file processing tasks
+often encountered by system administrators, such as analyzing logs and creating reports based on security parameters.
+
+Skills and Knowledge You Will Gain
+- Understanding how to work with CSV files and manage file I/O operations in Python.
+- Designing functions to read, process, and write data to files.
+- Applying logic to detect anomalies within datasets.
+- Writing clear and readable Python code, adhering to best practices in function design and code comments.
